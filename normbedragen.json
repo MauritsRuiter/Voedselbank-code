@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "aantal_leden": 1,
+        "normbedrag": 230.00,
+        "opmerkingen": "Voor u zelf"
+    },
+    {
+        "id": 2,
+        "aantal_leden": 2,
+        "normbedrag": 325.00,
+        "opmerkingen": "Met 1 gezinslid (kind of partner)"
+    },
+    {
+        "id": 3,
+        "aantal_leden": 3,
+        "normbedrag": 420.00,
+        "opmerkingen": "Met 2 gezinsleden"
+    },
+    {
+        "id": 4,
+        "aantal_leden": 4,
+        "normbedrag": 515.00,
+        "opmerkingen": "Met 3 gezinsleden"
+    },
+    {
+        "id": 5,
+        "aantal_leden": 5,
+        "normbedrag": 610.00,
+        "opmerkingen": "Met 4 gezinsleden"
+    },
+    {
+        "id": 6,
+        "aantal_leden": 6,
+        "normbedrag": 705.00,
+        "opmerkingen": "Met 5 gezinsleden"
+    },
+    {
+        "id": 7,
+        "aantal_leden": 7,
+        "normbedrag": 800.00,
+        "opmerkingen": "Met 6 gezinsleden"
+    },
+    {
+        "id": 8,
+        "aantal_leden": 8,
+        "normbedrag": 895.00,
+        "opmerkingen": "Met 7 gezinsleden"
+    },
+    {
+        "id": 9,
+        "aantal_leden": 9,
+        "normbedrag": 990.00,
+        "opmerkingen": "Met 8 gezinsleden"
+    }
+]

@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap");
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #fff;
+  color: #000;
+  width: 100%;
+  margin: 0 auto;
+  height: 100vh;
+}
+body img {
+  height: 75px;
+}
+
+header {
+  background-color: #fff;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+}
+
+main {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+#heading {
+  color: #ff7b00;
+  font-weight: 1000 !important;
+  font-size: 30px !important;
+}
+
+#subheading {
+  color: #000;
+}
+
+.tc {
+  text-align: center;
+}
+
+#content {
+  margin: 20px 20px 0 20px;
+  max-height: 700px;
+  overflow-y: auto;
+}
+
+.aleft {
+  align-self: start;
+  color: #006600;
+}
+
+.aprim,
+.aprim:link,
+.aprim:visited {
+  color: #ff7b00 !important;
+}
+
+footer {
+  background-color: #006600;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer img {
+  width: 50%;
+  height: 50%;
+  border-radius: 5px;
+}
+
+.inputfw {
+  width: 95%;
+}
+
+.question {
+  padding: 0 5px;
+}
+
+.question:after {
+  content: "*";
+  color: #f00;
+  margin-left: 5px;
+}
+
+.primary-btn {
+  padding: 5px 15px;
+  color: #fff;
+  background-color: #ff7b00;
+  border: none;
+  border-radius: 50px;
+  transition: all 200ms;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+/*# sourceMappingURL=style.css.map */

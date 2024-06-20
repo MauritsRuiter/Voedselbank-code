@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+
+$bgclr: #fff;
+$txtclr: #000;
+$primaryclr: #ff7b00;
+$secondaryclr: #006600;
+$cwidth: 100%;
+$center: center;
+$fw: 1000;
+$fs: 30px;
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: $bgclr;
+  color: $txtclr;
+  width: $cwidth;
+  margin: 0 auto;
+  height: 100vh;
+
+  img {
+    height: 75px;
+  }
+}
+
+header {
+  background-color: $bgclr;
+  width: $cwidth;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0px;
+}
+
+main {
+  background-color: $bgclr;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+#heading {
+  color: $primaryclr;
+  font-weight: $fw !important;
+  font-size: $fs !important;
+}
+
+#subheading {
+  color: $txtclr;
+}
+
+.tc {
+  text-align: $center;
+}
+
+#content {
+  // margin: 20px 5px 0 0;
+  // padding: 10px;
+  margin: 20px 20px 0 20px;
+  max-height: 700px;
+  overflow-y: auto;
+}
+
+.aleft {
+  align-self: start;
+  color: $secondaryclr;
+}
+
+.aprim,
+.aprim:link,
+.aprim:visited {
+  color: $primaryclr !important;
+}
+
+footer {
+  background-color: $secondaryclr;
+  color: $bgclr;
+  width: $cwidth;
+  text-align: $center;
+//   position: absolute;
+//   bottom: 0;
+  height: 100px;
+  display: flex;
+  // flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 50%;
+    height: 50%;
+    border-radius: 5px;
+  }
+}
+
+.inputfw {
+  width: 95%;
+}
+
+.question {
+  padding: 0 5px;
+}
+
+.question:after {
+  content: '*';
+  color: #f00;
+  margin-left: 5px;
+}
+
+.primary-btn {
+  padding: 5px 15px;
+  color: $bgclr;
+  background-color: $primaryclr;
+  border: none;
+  border-radius: 50px;
+  transition: all 200ms;
+  cursor: pointer;
+}
+
+.primary-btn:hover {
+  background-color: $bgclr;
+  color: $txtclr;
+  border: 1px solid $txtclr;
+}
